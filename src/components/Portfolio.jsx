@@ -17,10 +17,37 @@ const Portfolio = ({ classicHeader, darkTheme, activeFilter, setActiveFilter }) 
 
   const projectsData = [
     {
+      title: "Childrens Aid",
+      artist: "Childrens Aid NYC",
+      projectInfo:
+        "An iOS, Android Native and Web Application organizing The Children's Aid Society (NYC)'s digital solutions.",
+      client: "Childrens Aid NYC",
+      technologies: "Mongo DB, Express, React Native, Node JS, Firebase Auth",
+      industry: "Social Services",
+      date: "In Progress",
+      url: {
+        name: "www.childrensaidnyc.org",
+        link: "https://www.childrensaidnyc.org/",
+      },
+      socialLinks: {
+        facebook: "http://www.facebook.com/",
+        twitter: "http://www.twitter.com/",
+        google: "http://www.google.com/",
+        instagram: "http://www.instagram.com/",
+        mail: "mailto:example@gmail.com",
+      },
+      thumbImage: "images/projects/software-dev/chrome_PCwIkesORU.png",
+      sliderImages: [
+        "images/projects/software-dev/chrome_CaifCV60Xr.png",
+        "images/projects/software-dev/chrome_UGyECtJH1g.jpg",
+      ],
+      categories: ["SoftwareEngineering"],
+    },
+    {
       title: "Hard Cover",
       artist: "Independent",
       projectInfo:
-        "My first react app. A responsive fullstack book tracking and discussion platform. Native applications are on the way.",
+        "A responsive fullstack book tracking and discussion platform. Native applications are on the way.",
       client: "Independent",
       technologies: "Mongo DB, Express, React, Node JS",
       industry: "Book",
@@ -43,6 +70,33 @@ const Portfolio = ({ classicHeader, darkTheme, activeFilter, setActiveFilter }) 
       ],
       categories: ["SoftwareEngineering"],
     },
+    // {
+    //   title: "Muzzarella Pizza",
+    //   artist: "Muzzarella Inc.",
+    //   projectInfo:
+    //     "An online ordering solution designed for a local restaurant to combat the obstacle of the COVID-19 pandemic.",
+    //   client: "Muzzarella Inc.",
+    //   technologies: "Mongo DB, Express, React, Node JS",
+    //   industry: "Book",
+    //   date: "February 28, 2023",
+    //   url: {
+    //     name: "www.hardcover.world",
+    //     link: "https://www.hardcover.world",
+    //   },
+    //   socialLinks: {
+    //     facebook: "http://www.facebook.com/",
+    //     twitter: "http://www.twitter.com/",
+    //     google: "http://www.google.com/",
+    //     instagram: "http://www.instagram.com/",
+    //     mail: "mailto:example@gmail.com",
+    //   },
+    //   thumbImage: "images/projects/software-dev/chrome_JJ4iGtEL2I.png",
+    //   sliderImages: [
+    //     "images/projects/software-dev/chrome_DCIdEJdU8U.png",
+    //     "images/projects/software-dev/chrome_oNIQkrROPZ.png",
+    //   ],
+    //   categories: ["SoftwareEngineering"],
+    // },
     {
       title: "YSL",
       artist: "$olo",

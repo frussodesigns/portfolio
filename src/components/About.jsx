@@ -20,7 +20,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
               (darkTheme ? "text-white" : "text-dark")
             }
           >
-            Info
+            Francesco Russo
             <span className="heading-separator-line border-bottom border-3 border-primary d-block mx-auto" />
           </p>
         </div>
@@ -33,7 +33,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                 "text-7 fw-600 mb-3 " + (darkTheme ? "text-white" : "")
               }
             >
-              Hello, I am a <span className="text-primary">Fullstack Software Engineer</span>.
+              Filmmaker, Designer,  <span className="text-primary">Fullstack Software Engineer</span>.
             </h2>
             <p className={darkTheme ? "text-white-50" : ""}>
             A spirited, distinguished artist and designer, Francesco once blazed a trail
@@ -43,8 +43,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
             </p>
             <p className={darkTheme ? "text-white-50" : ""}>
               Welcome to my portfolio, make yourself at home as you browse through my past work.
-              If you are interested in working with me in the future, feel free to send me an email
-              at the bottom of the page. 
+              If you are interested in working with me in the future, feel free to reach out via email. 
             </p>
           </div>
           {/* About me content end */}

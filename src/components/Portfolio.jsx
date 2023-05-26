@@ -802,7 +802,13 @@ const Portfolio = ({ classicHeader, darkTheme, activeFilter, setActiveFilter }) 
                             onClick={(e) => {
                               e.preventDefault()
                               if (project.categories[0] == "MusicVideos"){
-                                project.link && window.open(project.link, '_blank')
+                                if (project.link) {
+                                  if (/Mobi|Android/i.test(navigator.userAgent)) {
+                                    window.location.href = project.link;
+                                  } else {
+                                    window.open(project.link, '_blank');
+                                  }
+                                }
                               }
                               else setSelectedProjectDetails(projectsData[index]);
                             }}

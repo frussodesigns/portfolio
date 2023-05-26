@@ -17,8 +17,8 @@ const Portfolio = ({ classicHeader, darkTheme, activeFilter, setActiveFilter }) 
 
   const projectsData = [
     {
-      title: "Childrens Aid",
-      artist: "Childrens Aid NYC",
+      title: "Children's Aid App",
+      artist: "Children's Aid NYC",
       projectInfo:
         "An iOS, Android Native and Web Application organizing The Children's Aid Society (NYC)'s digital solutions.",
       client: "Childrens Aid NYC",
@@ -44,7 +44,7 @@ const Portfolio = ({ classicHeader, darkTheme, activeFilter, setActiveFilter }) 
       categories: ["SoftwareEngineering"],
     },
     {
-      title: "Hard Cover",
+      title: "Hard Cover App",
       artist: "Independent",
       projectInfo:
         "A responsive fullstack book tracking and discussion platform. Native applications are on the way.",
@@ -63,15 +63,16 @@ const Portfolio = ({ classicHeader, darkTheme, activeFilter, setActiveFilter }) 
         instagram: "http://www.instagram.com/",
         mail: "mailto:example@gmail.com",
       },
-      thumbImage: "images/projects/software-dev/chrome_JJ4iGtEL2I.png",
+      thumbImage: "images/projects/software-dev/IMG-1920.PNG",
       sliderImages: [
+        "images/projects/software-dev/chrome_JJ4iGtEL2I.png",
         "images/projects/software-dev/chrome_DCIdEJdU8U.png",
         "images/projects/software-dev/chrome_oNIQkrROPZ.png",
       ],
       categories: ["SoftwareEngineering"],
     },
     {
-      title: "Muzzarella Pizza",
+      title: "Muzzarella Pizza App",
       artist: "Muzzarella Inc.",
       video: "V1cIrbEqXC8",
       projectInfo:
@@ -91,7 +92,7 @@ const Portfolio = ({ classicHeader, darkTheme, activeFilter, setActiveFilter }) 
         instagram: "http://www.instagram.com/",
         mail: "mailto:example@gmail.com",
       },
-      thumbImage: "https://i9.ytimg.com/vi_webp/V1cIrbEqXC8/mqdefault.webp?sqp=CLS_w6MG&rs=AOn4CLDWTdU6630J7aphiybAOP5Xu8GB3w",
+      thumbImage: "images/projects/software-dev/IMG-2.jpg",
       sliderImages: [
         "images/projects/software-dev/chrome_DCIdEJdU8U.png",
         "images/projects/software-dev/chrome_oNIQkrROPZ.png",

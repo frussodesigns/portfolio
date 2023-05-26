@@ -70,33 +70,34 @@ const Portfolio = ({ classicHeader, darkTheme, activeFilter, setActiveFilter }) 
       ],
       categories: ["SoftwareEngineering"],
     },
-    // {
-    //   title: "Muzzarella Pizza",
-    //   artist: "Muzzarella Inc.",
-    //   projectInfo:
-    //     "An online ordering solution designed for a local restaurant to combat the obstacle of the COVID-19 pandemic.",
-    //   client: "Muzzarella Inc.",
-    //   technologies: "Mongo DB, Express, React, Node JS",
-    //   industry: "Book",
-    //   date: "February 28, 2023",
-    //   url: {
-    //     name: "www.hardcover.world",
-    //     link: "https://www.hardcover.world",
-    //   },
-    //   socialLinks: {
-    //     facebook: "http://www.facebook.com/",
-    //     twitter: "http://www.twitter.com/",
-    //     google: "http://www.google.com/",
-    //     instagram: "http://www.instagram.com/",
-    //     mail: "mailto:example@gmail.com",
-    //   },
-    //   thumbImage: "images/projects/software-dev/chrome_JJ4iGtEL2I.png",
-    //   sliderImages: [
-    //     "images/projects/software-dev/chrome_DCIdEJdU8U.png",
-    //     "images/projects/software-dev/chrome_oNIQkrROPZ.png",
-    //   ],
-    //   categories: ["SoftwareEngineering"],
-    // },
+    {
+      title: "Muzzarella Pizza",
+      artist: "Muzzarella Inc.",
+      video: "V1cIrbEqXC8",
+      projectInfo:
+        "An online ordering solution designed for a local restaurant to combat the obstacle of the COVID-19 pandemic.",
+      client: "Muzzarella Inc.",
+      technologies: "Wordpress",
+      industry: "Hospitality",
+      date: "February 28, 2023",
+      url: {
+        name: "www.muzzarella.pizza",
+        link: "https://www.muzzarella.pizza",
+      },
+      socialLinks: {
+        facebook: "http://www.facebook.com/",
+        twitter: "http://www.twitter.com/",
+        google: "http://www.google.com/",
+        instagram: "http://www.instagram.com/",
+        mail: "mailto:example@gmail.com",
+      },
+      thumbImage: "https://i9.ytimg.com/vi_webp/V1cIrbEqXC8/mqdefault.webp?sqp=CLS_w6MG&rs=AOn4CLDWTdU6630J7aphiybAOP5Xu8GB3w",
+      sliderImages: [
+        "images/projects/software-dev/chrome_DCIdEJdU8U.png",
+        "images/projects/software-dev/chrome_oNIQkrROPZ.png",
+      ],
+      categories: ["SoftwareEngineering"],
+    },
     {
       title: "YSL",
       artist: "$olo",

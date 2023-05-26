@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from "react";
+import YouTube from 'react-youtube';
 
 import Slider from "react-slick";
 
@@ -26,7 +27,7 @@ const ProjectDetailsModal = ({ darkTheme, projectDetails }) => {
   };
 
   useEffect(() => {
-    sliderRef.current.slickGoTo(0);
+    !projectDetails?.video && sliderRef.current.slickGoTo(0);
   }, [projectDetails]);
 
   return (
@@ -67,6 +68,23 @@ const ProjectDetailsModal = ({ darkTheme, projectDetails }) => {
                 </h2>
                 <div className="row g-4">
                   <div className="col-md-7">
+                    {projectDetails?.video && 
+                    <YouTube 
+                      videoId={projectDetails.video} 
+                      opts={{
+                        width: '100%', // Set maximum width to 100%
+                        playerVars: {
+                          autoplay: 1,
+                          hd: 1, // Default to HD quality
+                          mute: 1,
+                        },
+                      }}
+                      onReady={(event) => {
+                        event.target.playVideo(); // Start playing the video once it's ready
+                      }} 
+                    />
+                    }
+                    {!projectDetails?.video &&
                     <Slider {...settings} ref={sliderRef}>
                       <div className="item">
                         <img
@@ -82,6 +100,7 @@ const ProjectDetailsModal = ({ darkTheme, projectDetails }) => {
                           </div>
                         ))}
                     </Slider>
+                    }
                   </div>
                   <div className="col-md-5">
                     <h4

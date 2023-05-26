@@ -20,7 +20,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
               (darkTheme ? "text-white" : "text-dark")
             }
           >
-            Francesco Russo
+            Info
             <span className="heading-separator-line border-bottom border-3 border-primary d-block mx-auto" />
           </p>
         </div>
@@ -36,15 +36,15 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
               Hello, I am a <span className="text-primary">Fullstack Software Engineer</span>.
             </h2>
             <p className={darkTheme ? "text-white-50" : ""}>
-              I help you build brand for your business at an affordable price.
-              Thousands of clients have procured exceptional results while
-              working with our dedicated team. when an unknown printer took a
-              galley of type and scrambled it to make a type specimen book.
+            A spirited, distinguished artist and designer, Francesco once blazed a trail
+             creating highly technical, low budget music videos. He now seeks mastery and
+              the complete understanding of the ins and outs of modern app development. 
+              As a software engineer, Francesco offers poise, comprehension, and unparalleled organization. 
             </p>
             <p className={darkTheme ? "text-white-50" : ""}>
-              Delivering work within time and budget which meets client’s
-              requirements is our moto. Lorem Ipsum has been the industry's
-              standard dummy text ever when an unknown printer took a galley.
+              Welcome to my portfolio, make yourself at home as you browse through my past work.
+              If you are interested in working with me in the future, feel free to send me an email
+              at the bottom of the page. 
             </p>
           </div>
           {/* About me content end */}
@@ -102,7 +102,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                   <span>10</span>+
                 </h4>
                 <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
-                  Years Experiance
+                  Years of Experiance
                 </p>
               </div>
             </div>
@@ -114,7 +114,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                     (darkTheme ? "text-white-50" : "text-muted")
                   }
                 >
-                  <span>250</span>+
+                  <span>22</span>+
                 </h4>
                 <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
                   Happy Clients
@@ -129,10 +129,10 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                     (darkTheme ? "text-white-50" : "text-muted")
                   }
                 >
-                  <span>650</span>+
+                  <span>28</span>+
                 </h4>
                 <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
-                  Projects Done
+                  Projects Completed
                 </p>
               </div>
             </div>
@@ -144,10 +144,10 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                     (darkTheme ? "text-white-50" : "text-muted")
                   }
                 >
-                  <span>38</span>
+                  <span>88</span>+
                 </h4>
                 <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
-                  Get Awards
+                  Millions of Views
                 </p>
               </div>
             </div>

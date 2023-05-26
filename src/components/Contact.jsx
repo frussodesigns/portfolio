@@ -14,10 +14,10 @@ const Contact = ({ classicHeader, darkTheme }) => {
     setSendingMail(true);
     emailjs
       .sendForm(
-        "service_i86k3ms",
-        "template_si6cin9",
+        "service_6bmk14o",
+        "template_cb5qict",
         form.current,
-        "c9HsDgGF0tvWyVnAL"
+        "xKMYAl2gj2ZM6fx98"
       )
       .then(
         (result) => {
@@ -88,32 +88,32 @@ const Contact = ({ classicHeader, darkTheme }) => {
                 "mb-3 text-5 text-uppercase " + (darkTheme ? "text-white" : "")
               }
             >
-              Address
+              Located
             </h2>
             <p className={"text-3 mb-4 " + (darkTheme ? "text-light" : "")}>
-              4th Floor, Plot No.22,
+              New York, NY
               <br />
-              145 Murphy Canyon Rd.
-              <br />
-              San Diego CA 2028
+              Rome, IT
+              {/* <br />
+              San Diego CA 2028 */}
             </p>
             <p className={"text-3 mb-1 " + (darkTheme ? "text-light" : "")}>
               <span className="text-primary text-4 me-2">
                 <i className="fas fa-phone" />
               </span>
-              (060) 444 434 444
+              (914) 787 7621
             </p>
             <p className={"text-3 mb-1 " + (darkTheme ? "text-light" : "")}>
               <span className="text-primary text-4 me-2">
                 <i className="fas fa-fax" />
               </span>
-              (060) 555 545 555
+              (914) RUSSO-21
             </p>
             <p className={"text-3 mb-4 " + (darkTheme ? "text-light" : "")}>
               <span className="text-primary text-4 me-2">
                 <i className="fas fa-envelope" />
               </span>
-              chat@simone.com
+              me@frussohd.com
             </p>
             <h2
               className={
@@ -128,7 +128,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
                 (darkTheme ? "social-icons-muted" : "")
               }
             >
-              <li className="social-icons-dribbble">
+              {/* <li className="social-icons-dribbble">
                 <Tooltip text="Dribbble" placement="top">
                   <a
                     href="http://www.dribbble.com/harnishdesign/"
@@ -171,11 +171,11 @@ const Contact = ({ classicHeader, darkTheme }) => {
                     <i className="fab fa-google" />
                   </a>
                 </Tooltip>
-              </li>
+              </li> */}
               <li className="social-icons-github">
                 <Tooltip text="Github" placement="top">
                   <a
-                    href="http://www.github.com/"
+                    href="https://github.com/rarepython21"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

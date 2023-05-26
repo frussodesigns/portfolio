@@ -17,7 +17,36 @@ const Portfolio = ({ classicHeader, darkTheme, activeFilter, setActiveFilter }) 
 
   const projectsData = [
     {
-      title: "Project Title 1",
+      title: "Hard Cover",
+      artist: "Independent",
+      projectInfo:
+        "My first react app. A responsive fullstack book tracking and discussion platform. Native applications are on the way.",
+      client: "Independent",
+      technologies: "Mongo DB, Express, React, Node JS",
+      industry: "Book",
+      date: "February 28, 2023",
+      url: {
+        name: "www.hardcover.world",
+        link: "https://www.hardcover.world",
+      },
+      socialLinks: {
+        facebook: "http://www.facebook.com/",
+        twitter: "http://www.twitter.com/",
+        google: "http://www.google.com/",
+        instagram: "http://www.instagram.com/",
+        mail: "mailto:example@gmail.com",
+      },
+      thumbImage: "images/projects/software-dev/chrome_JJ4iGtEL2I.png",
+      sliderImages: [
+        "images/projects/software-dev/chrome_DCIdEJdU8U.png",
+        "images/projects/software-dev/chrome_oNIQkrROPZ.png",
+      ],
+      categories: ["SoftwareEngineering"],
+    },
+    {
+      title: "YSL",
+      artist: "$olo",
+      link: "https://www.youtube.com/watch?v=884oAASx2yg",
       projectInfo:
         "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
       client: "Ruby Clinton",
@@ -35,7 +64,7 @@ const Portfolio = ({ classicHeader, darkTheme, activeFilter, setActiveFilter }) 
         instagram: "http://www.instagram.com/",
         mail: "mailto:example@gmail.com",
       },
-      thumbImage: "images/projects/project-1.jpg",
+      thumbImage: "https://i.ytimg.com/vi/884oAASx2yg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC8YGmoBkF2Rktf0mtTW43InVunRA",
       sliderImages: [
         // "images/projects/project-1.jpg",
         "images/projects/project-5.jpg",
@@ -43,7 +72,9 @@ const Portfolio = ({ classicHeader, darkTheme, activeFilter, setActiveFilter }) 
       categories: ["MusicVideos"],
     },
     {
-      title: "Project Title 2",
+      title: "Safe House",
+      artist: "Lil Wop",
+      link: "https://www.youtube.com/watch?v=8CRkx-gEw-M",
       projectInfo:
         "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
       client: "Ruby Clinton",
@@ -61,7 +92,7 @@ const Portfolio = ({ classicHeader, darkTheme, activeFilter, setActiveFilter }) 
         instagram: "http://www.instagram.com/",
         mail: "mailto:example@gmail.com",
       },
-      thumbImage: "images/projects/project-2.jpg",
+      thumbImage: "https://i.ytimg.com/vi/8CRkx-gEw-M/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBcpwNY2AvLee4--D4zULLrvovv_w",
       sliderImages: [
         "images/projects/project-2.jpg",
         "images/projects/project-5.jpg",
@@ -69,7 +100,9 @@ const Portfolio = ({ classicHeader, darkTheme, activeFilter, setActiveFilter }) 
       categories: ["MusicVideos"],
     },
     {
-      title: "Project Title 3",
+      title: "Toast",
+      artist: "Curly Savv, Dah Dah",
+      link: "https://youtu.be/pcSLwMprhuA",
       projectInfo:
         "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
       client: "Ruby Clinton",
@@ -87,15 +120,17 @@ const Portfolio = ({ classicHeader, darkTheme, activeFilter, setActiveFilter }) 
         instagram: "http://www.instagram.com/",
         mail: "mailto:example@gmail.com",
       },
-      thumbImage: "images/projects/project-3.jpg",
+      thumbImage: "images/projects/music-videos/curlyydah.png",
       sliderImages: [
         "images/projects/project-3.jpg",
         "images/projects/project-5.jpg",
       ],
-      categories: ["SoftwareEngineering"],
+      categories: ["MusicVideos"],
     },
     {
-      title: "Project Title 4",
+      title: "Superstar",
+      artist: "Crash Rarri",
+      link: "https://youtu.be/69tx-7vtyzA",
       projectInfo:
         "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
       client: "Ruby Clinton",
@@ -113,15 +148,45 @@ const Portfolio = ({ classicHeader, darkTheme, activeFilter, setActiveFilter }) 
         instagram: "http://www.instagram.com/",
         mail: "mailto:example@gmail.com",
       },
-      thumbImage: "images/projects/project-4.jpg",
+      thumbImage: "https://i.ytimg.com/vi/3SkaBsFjoeo/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDNuhj_JVZYZhhH_UcmarPgfMO2WA",
+      sliderImages: [
+        "images/projects/project-1.jpg",
+        "images/projects/project-5.jpg",
+      ],
+      categories: ["MusicVideos"],
+    },
+    {
+      title: "Never Ever Land",
+      artist: "Trippie Redd",
+      link: "https://youtu.be/1FEYlfaoE74",
+      projectInfo:
+        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      client: "Ruby Clinton",
+      technologies: "iOS, HTML5, CSS3, PHP, Java",
+      industry: "Art & Design",
+      date: "July 16, 2019",
+      url: {
+        name: "www.example.com",
+        link: "https://www.example.com",
+      },
+      socialLinks: {
+        facebook: "http://www.facebook.com/",
+        twitter: "http://www.twitter.com/",
+        google: "http://www.google.com/",
+        instagram: "http://www.instagram.com/",
+        mail: "mailto:example@gmail.com",
+      },
+      thumbImage: "images/projects/music-videos/nel.png",
       sliderImages: [
         "images/projects/project-1.jpg",
         "images/projects/project-4.jpg",
       ],
-      categories: [filters.BRAND, filters.PHOTOS],
+      categories: ["MusicVideos"],
     },
     {
-      title: "Project Title 5",
+      title: "In Too Deep",
+      artist: "Trippie Redd",
+      link: "https://www.youtube.com/watch?v=AKwOZyX6Np8",
       projectInfo:
         "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
       client: "Ruby Clinton",
@@ -139,15 +204,18 @@ const Portfolio = ({ classicHeader, darkTheme, activeFilter, setActiveFilter }) 
         instagram: "http://www.instagram.com/",
         mail: "mailto:example@gmail.com",
       },
-      thumbImage: "images/projects/project-5.jpg",
+      thumbImage: "images/projects/music-videos/intoodeep.png",
       sliderImages: [
         "images/projects/project-1.jpg",
         "images/projects/project-5.jpg",
       ],
-      categories: [filters.DESIGN],
+      categories: ["MusicVideos"],
     },
+    
     {
-      title: "Project Title 6",
+      title: "Deadmans Wonderland",
+      artist: "Trippie Redd",
+      link: "https://www.youtube.com/watch?v=Xv2nPTJdXnQ",
       projectInfo:
         "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
       client: "Ruby Clinton",
@@ -165,15 +233,17 @@ const Portfolio = ({ classicHeader, darkTheme, activeFilter, setActiveFilter }) 
         instagram: "http://www.instagram.com/",
         mail: "mailto:example@gmail.com",
       },
-      thumbImage: "images/projects/project-6.jpg",
+      thumbImage: "images/projects/music-videos/dmw.png",
       sliderImages: [
         "images/projects/project-1.jpg",
         "images/projects/project-5.jpg",
       ],
-      categories: [filters.BRAND],
+      categories: ["MusicVideos"],
     },
     {
-      title: "Project Title 7",
+      title: "Hop Out",
+      artist: "Squidnice",
+      link: "https://www.youtube.com/watch?v=EH5x9ke4IS4",
       projectInfo:
         "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
       client: "Ruby Clinton",
@@ -191,12 +261,376 @@ const Portfolio = ({ classicHeader, darkTheme, activeFilter, setActiveFilter }) 
         instagram: "http://www.instagram.com/",
         mail: "mailto:example@gmail.com",
       },
-      thumbImage: "images/projects/project-7.jpg",
+      thumbImage: "https://i.ytimg.com/vi/EH5x9ke4IS4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBcuZjp-_PqplVhyf6D4BNC5JqBxw",
       sliderImages: [
         "images/projects/project-1.jpg",
         "images/projects/project-5.jpg",
       ],
-      categories: [filters.DESIGN, filters.PHOTOS],
+      categories: ["MusicVideos"],
+    },
+    {
+      title: "Thouxan",
+      artist: "Thouxanbanfauni",
+      link: "https://www.youtube.com/watch?v=uM9ImgzI7DM",
+      projectInfo:
+        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      client: "Ruby Clinton",
+      technologies: "iOS, HTML5, CSS3, PHP, Java",
+      industry: "Art & Design",
+      date: "July 16, 2019",
+      url: {
+        name: "www.example.com",
+        link: "https://www.example.com",
+      },
+      socialLinks: {
+        facebook: "http://www.facebook.com/",
+        twitter: "http://www.twitter.com/",
+        google: "http://www.google.com/",
+        instagram: "http://www.instagram.com/",
+        mail: "mailto:example@gmail.com",
+      },
+      thumbImage: "https://i.ytimg.com/vi/uM9ImgzI7DM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBZ0oBLheUyjNBrAqeZc-wTfKWzkg",
+      sliderImages: [
+        "images/projects/project-1.jpg",
+        "images/projects/project-5.jpg",
+      ],
+      categories: ["MusicVideos"],
+    },
+    {
+      title: "Faygo Dreams",
+      artist: "6 Dogs",
+      link: "https://www.youtube.com/watch?v=AU9sXfISeiA",
+      projectInfo:
+        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      client: "Ruby Clinton",
+      technologies: "iOS, HTML5, CSS3, PHP, Java",
+      industry: "Art & Design",
+      date: "July 16, 2019",
+      url: {
+        name: "www.example.com",
+        link: "https://www.example.com",
+      },
+      socialLinks: {
+        facebook: "http://www.facebook.com/",
+        twitter: "http://www.twitter.com/",
+        google: "http://www.google.com/",
+        instagram: "http://www.instagram.com/",
+        mail: "mailto:example@gmail.com",
+      },
+      thumbImage: "images/projects/music-videos/chase.png",
+      sliderImages: [
+        "images/projects/project-1.jpg",
+        "images/projects/project-5.jpg",
+      ],
+      categories: ["MusicVideos"],
+    },
+    {
+      title: "Wildfire",
+      artist: "Fish Narc",
+      link: "https://www.youtube.com/watch?v=aJE7RZWfQNc",
+      projectInfo:
+        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      client: "Ruby Clinton",
+      technologies: "iOS, HTML5, CSS3, PHP, Java",
+      industry: "Art & Design",
+      date: "July 16, 2019",
+      url: {
+        name: "www.example.com",
+        link: "https://www.example.com",
+      },
+      socialLinks: {
+        facebook: "http://www.facebook.com/",
+        twitter: "http://www.twitter.com/",
+        google: "http://www.google.com/",
+        instagram: "http://www.instagram.com/",
+        mail: "mailto:example@gmail.com",
+      },
+      thumbImage: "images/projects/music-videos/wildfire.png",
+      sliderImages: [
+        "images/projects/project-1.jpg",
+        "images/projects/project-5.jpg",
+      ],
+      categories: ["MusicVideos"],
+    },
+    {
+      title: "Amy",
+      artist: "NAO Quelly",
+      link: "https://www.youtube.com/watch?v=w_vkCFtZ4As",
+      projectInfo:
+        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      client: "Ruby Clinton",
+      technologies: "iOS, HTML5, CSS3, PHP, Java",
+      industry: "Art & Design",
+      date: "July 16, 2019",
+      url: {
+        name: "www.example.com",
+        link: "https://www.example.com",
+      },
+      socialLinks: {
+        facebook: "http://www.facebook.com/",
+        twitter: "http://www.twitter.com/",
+        google: "http://www.google.com/",
+        instagram: "http://www.instagram.com/",
+        mail: "mailto:example@gmail.com",
+      },
+      thumbImage: "https://i.ytimg.com/vi/w_vkCFtZ4As/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAOJ85fPniSaGpPHVS6CMF2jPM2Vg",
+      sliderImages: [
+        "images/projects/project-1.jpg",
+        "images/projects/project-5.jpg",
+      ],
+      categories: ["MusicVideos"],
+    },
+    {
+      title: "Wish",
+      artist: "Trippie Redd",
+      link: "https://www.youtube.com/watch?v=efxiDBygvdg",
+      projectInfo:
+        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      client: "Ruby Clinton",
+      technologies: "iOS, HTML5, CSS3, PHP, Java",
+      industry: "Art & Design",
+      date: "July 16, 2019",
+      url: {
+        name: "www.example.com",
+        link: "https://www.example.com",
+      },
+      socialLinks: {
+        facebook: "http://www.facebook.com/",
+        twitter: "http://www.twitter.com/",
+        google: "http://www.google.com/",
+        instagram: "http://www.instagram.com/",
+        mail: "mailto:example@gmail.com",
+      },
+      thumbImage: "https://i.ytimg.com/vi/efxiDBygvdg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBcDX2rMcFgll4VdfnY3Sz6FsiVWQ",
+      sliderImages: [
+        "images/projects/project-1.jpg",
+        "images/projects/project-5.jpg",
+      ],
+      categories: ["MusicVideos"],
+    },
+    {
+      title: "!",
+      artist: "Trippie Redd",
+      link: "https://www.youtube.com/watch?v=lKxQMVUz4QQ",
+      projectInfo:
+        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      client: "Ruby Clinton",
+      technologies: "iOS, HTML5, CSS3, PHP, Java",
+      industry: "Art & Design",
+      date: "July 16, 2019",
+      url: {
+        name: "www.example.com",
+        link: "https://www.example.com",
+      },
+      socialLinks: {
+        facebook: "http://www.facebook.com/",
+        twitter: "http://www.twitter.com/",
+        google: "http://www.google.com/",
+        instagram: "http://www.instagram.com/",
+        mail: "mailto:example@gmail.com",
+      },
+      thumbImage: "images/projects/music-videos/!.jpg",
+      sliderImages: [
+        "images/projects/project-1.jpg",
+        "images/projects/project-5.jpg",
+      ],
+      categories: ["MusicVideos"],
+    },
+    {
+      title: "Spring Lover",
+      artist: "Monica Riskey",
+      link: "https://www.youtube.com/watch?v=_KAC1rQryCo",
+      projectInfo:
+        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      client: "Ruby Clinton",
+      technologies: "iOS, HTML5, CSS3, PHP, Java",
+      industry: "Art & Design",
+      date: "July 16, 2019",
+      url: {
+        name: "www.example.com",
+        link: "https://www.example.com",
+      },
+      socialLinks: {
+        facebook: "http://www.facebook.com/",
+        twitter: "http://www.twitter.com/",
+        google: "http://www.google.com/",
+        instagram: "http://www.instagram.com/",
+        mail: "mailto:example@gmail.com",
+      },
+      thumbImage: "https://i.ytimg.com/vi/_KAC1rQryCo/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB1AaAAuADigIMCAAQARhUIF0oZTAP&rs=AOn4CLB9waVpebltnahSXcA6igFpnpl_mA",
+      sliderImages: [
+        "images/projects/project-1.jpg",
+        "images/projects/project-5.jpg",
+      ],
+      categories: ["MusicVideos"],
+    },
+    {
+      title: "Psych Ward",
+      artist: "Rawska",
+      link: "https://www.youtube.com/watch?v=SCbhRbT7Ik8",
+      projectInfo:
+        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      client: "Ruby Clinton",
+      technologies: "iOS, HTML5, CSS3, PHP, Java",
+      industry: "Art & Design",
+      date: "July 16, 2019",
+      url: {
+        name: "www.example.com",
+        link: "https://www.example.com",
+      },
+      socialLinks: {
+        facebook: "http://www.facebook.com/",
+        twitter: "http://www.twitter.com/",
+        google: "http://www.google.com/",
+        instagram: "http://www.instagram.com/",
+        mail: "mailto:example@gmail.com",
+      },
+      thumbImage: "https://i.ytimg.com/vi/SCbhRbT7Ik8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAHrq2bkW6Z0zCF-5ArWPvcx3lBOw",
+      sliderImages: [
+        "images/projects/project-1.jpg",
+        "images/projects/project-5.jpg",
+      ],
+      categories: ["MusicVideos"],
+    },
+    {
+      title: "Freak",
+      artist: "Rawska",
+      link: "https://www.youtube.com/watch?v=MnsRnrDE7zc",
+      projectInfo:
+        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      client: "Ruby Clinton",
+      technologies: "iOS, HTML5, CSS3, PHP, Java",
+      industry: "Art & Design",
+      date: "July 16, 2019",
+      url: {
+        name: "www.example.com",
+        link: "https://www.example.com",
+      },
+      socialLinks: {
+        facebook: "http://www.facebook.com/",
+        twitter: "http://www.twitter.com/",
+        google: "http://www.google.com/",
+        instagram: "http://www.instagram.com/",
+        mail: "mailto:example@gmail.com",
+      },
+      thumbImage: "https://i.ytimg.com/vi/MnsRnrDE7zc/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB1AaAAuADigIMCAAQARhyIEgoKTAP&rs=AOn4CLAxnrw2mBawHLNij79TucRoRiLfjg",
+      sliderImages: [
+        "images/projects/project-1.jpg",
+        "images/projects/project-5.jpg",
+      ],
+      categories: ["MusicVideos"],
+    },
+    {
+      title: "ITYWS",
+      artist: "Rawska",
+      link: "https://www.youtube.com/watch?v=-c3X3_OwUn4",
+      projectInfo:
+        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      client: "Ruby Clinton",
+      technologies: "iOS, HTML5, CSS3, PHP, Java",
+      industry: "Art & Design",
+      date: "July 16, 2019",
+      url: {
+        name: "www.example.com",
+        link: "https://www.example.com",
+      },
+      socialLinks: {
+        facebook: "http://www.facebook.com/",
+        twitter: "http://www.twitter.com/",
+        google: "http://www.google.com/",
+        instagram: "http://www.instagram.com/",
+        mail: "mailto:example@gmail.com",
+      },
+      thumbImage: "https://i.ytimg.com/vi/-c3X3_OwUn4/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhnIGcoZzAP&rs=AOn4CLBm1pFA1-dxPFyKsx2t7oNyCWd_PQ",
+      sliderImages: [
+        "images/projects/project-1.jpg",
+        "images/projects/project-5.jpg",
+      ],
+      categories: ["MusicVideos"],
+    },
+    {
+      title: "Dawn Don",
+      artist: "Ruhboi, Belis",
+      link: "https://www.youtube.com/watch?v=X7IqdSg1c_A",
+      projectInfo:
+        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      client: "Ruby Clinton",
+      technologies: "iOS, HTML5, CSS3, PHP, Java",
+      industry: "Art & Design",
+      date: "July 16, 2019",
+      url: {
+        name: "www.example.com",
+        link: "https://www.example.com",
+      },
+      socialLinks: {
+        facebook: "http://www.facebook.com/",
+        twitter: "http://www.twitter.com/",
+        google: "http://www.google.com/",
+        instagram: "http://www.instagram.com/",
+        mail: "mailto:example@gmail.com",
+      },
+      thumbImage: "https://i.ytimg.com/vi/X7IqdSg1c_A/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDXYyxCTba0KqzkrwpGf31xQuaC5g",
+      sliderImages: [
+        "images/projects/project-1.jpg",
+        "images/projects/project-5.jpg",
+      ],
+      categories: ["MusicVideos"],
+    },
+    {
+      title: "Every Time",
+      artist: "Ceedub",
+      link: "https://youtu.be/hy55QYzTYGI",
+      projectInfo:
+        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      client: "Ruby Clinton",
+      technologies: "iOS, HTML5, CSS3, PHP, Java",
+      industry: "Art & Design",
+      date: "July 16, 2019",
+      url: {
+        name: "www.example.com",
+        link: "https://www.example.com",
+      },
+      socialLinks: {
+        facebook: "http://www.facebook.com/",
+        twitter: "http://www.twitter.com/",
+        google: "http://www.google.com/",
+        instagram: "http://www.instagram.com/",
+        mail: "mailto:example@gmail.com",
+      },
+      thumbImage: "images/projects/music-videos/everytime.png",
+      sliderImages: [
+        "images/projects/project-1.jpg",
+        "images/projects/project-5.jpg",
+      ],
+      categories: ["MusicVideos"],
+    },
+    {
+      title: "Nothing Left",
+      artist: "Raeusi",
+      link: "https://www.youtube.com/watch?v=UcJU6vMd3OQ",
+      projectInfo:
+        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      client: "Ruby Clinton",
+      technologies: "iOS, HTML5, CSS3, PHP, Java",
+      industry: "Art & Design",
+      date: "July 16, 2019",
+      url: {
+        name: "www.example.com",
+        link: "https://www.example.com",
+      },
+      socialLinks: {
+        facebook: "http://www.facebook.com/",
+        twitter: "http://www.twitter.com/",
+        google: "http://www.google.com/",
+        instagram: "http://www.instagram.com/",
+        mail: "mailto:example@gmail.com",
+      },
+      thumbImage: "images/projects/music-videos/nothingleft.png",
+      sliderImages: [
+        "images/projects/project-1.jpg",
+        "images/projects/project-5.jpg",
+      ],
+      categories: ["MusicVideos"],
     },
   ];
 
@@ -308,19 +742,23 @@ const Portfolio = ({ classicHeader, darkTheme, activeFilter, setActiveFilter }) 
                         />
                         <div className="portfolio-overlay">
                           <a
-                            className="popup-ajax stretched-link"
+                            className={"popup-ajax stretched-link" }
                             href=""
-                            onClick={() => {
-                              setSelectedProjectDetails(projectsData[index]);
+                            onClick={(e) => {
+                              e.preventDefault()
+                              if (project.categories[0] == "MusicVideos"){
+                                project.link && window.open(project.link, '_blank')
+                              }
+                              else setSelectedProjectDetails(projectsData[index]);
                             }}
-                            data-bs-toggle="modal"
-                            data-bs-target="#exampleModal"
+                            data-bs-toggle={project.link ? "" : "modal"}
+                            data-bs-target={project.link ? "" : "#exampleModal"}
                           />
                           <div className="portfolio-overlay-details">
                             <h5 className="text-white fw-400">
                               {project.title}
                             </h5>
-                            <span className="text-light">Category</span>
+                            <span className="text-light">{project.artist ? project.artist : ''}</span>
                           </div>
                         </div>
                       </div>

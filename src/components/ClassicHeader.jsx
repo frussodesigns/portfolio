@@ -51,14 +51,14 @@ const ClassicHeader = ({ handleNavClick, activeFilter, setActiveFilter }) => {
               style={{ cursor: "pointer" }}
               className="logo"
               to="home"
-              title="Francesco"
+              title="frhd.tv"
               onClick={(e) => {
                 e.preventDefault();
                 setIsNavModalClose(true);
               }}
             >
               {" "}
-              <img src="images/logo-light.png" alt="Francesco" style={{ width: '199px', height: 'auto' }} />{" "}
+              <img src="images/logo-light-big.png" alt="FRHD.TV" style={{ width: '128px', height: 'auto' }} />{" "}
             </Link>
             {/* Logo End */}
           </div>

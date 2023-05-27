@@ -85,15 +85,15 @@ const Contact = ({ classicHeader, darkTheme }) => {
           <div className="col-md-4 col-xl-3 order-1 order-md-0 text-center text-md-start">
             <h2
               className={
-                "mb-3 text-5 text-uppercase " + (darkTheme ? "text-white" : "")
+                "mt-1 mb-3 text-5 text-uppercase " + (darkTheme ? "text-white" : "")
               }
             >
-              Located
+              Locations
             </h2>
             <p className={"text-3 mb-4 " + (darkTheme ? "text-light" : "")}>
               New York, NY
               <br />
-              Rome, IT
+              Roma, RM
               {/* <br />
               San Diego CA 2028 */}
             </p>
@@ -149,29 +149,29 @@ const Contact = ({ classicHeader, darkTheme }) => {
                     <i className="fab fa-twitter" />
                   </a>
                 </Tooltip>
-              </li>
-              <li className="social-icons-facebook">
-                <Tooltip text="Facebook" placement="top">
-                  <a
-                    href="http://www.facebook.com/harnishdesign/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="fab fa-facebook-f" />
-                  </a>
-                </Tooltip>
-              </li>
-              <li className="social-icons-google">
-                <Tooltip text="Google" placement="top">
-                  <a
-                    href="http://www.google.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="fab fa-google" />
-                  </a>
-                </Tooltip>
               </li> */}
+              <li className="social-icons-facebook">
+                <Tooltip text="YouTube" placement="top">
+                  <a
+                    href="https://www.youtube.com/@frussohd"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i className="fab fa-youtube" />
+                  </a>
+                </Tooltip>
+              </li>
+              <li className="social-icons-youtube">
+                <Tooltip text="Insta" placement="top">
+                  <a
+                    href="http://www.instagram.com/frussohd"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i className="fab fa-instagram" />
+                  </a>
+                </Tooltip>
+              </li>
               <li className="social-icons-github">
                 <Tooltip text="Github" placement="top">
                   <a
@@ -193,7 +193,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
                 (darkTheme ? "text-white" : "")
               }
             >
-              Send us a note
+              Send me a note
             </h2>
             <form
               className={darkTheme ? "form-dark" : ""}
@@ -228,7 +228,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
                     className="form-control"
                     rows={5}
                     required
-                    placeholder="Tell us more about your needs........"
+                    placeholder="Message"
                     defaultValue={""}
                   />
                 </div>

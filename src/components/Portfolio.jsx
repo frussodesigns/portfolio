@@ -10,7 +10,7 @@ const Portfolio = ({ classicHeader, darkTheme, activeFilter, setActiveFilter }) 
   const [selectedProjectDetails, setSelectedProjectDetails] = useState();
 
   const filters = {
-    MusicVideos: "Music Videos",
+    MusicVideos: "Music Video",
     SoftwareEngineering: "Software Engineering",
     Film: "Narrative Film",
   };

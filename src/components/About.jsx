@@ -12,7 +12,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
               (darkTheme ? "text-muted opacity-1" : "text-light opacity-4")
             }
           >
-            About Me
+            About
           </h2>
           <p
             className={
@@ -33,7 +33,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                 "text-7 fw-600 mb-3 " + (darkTheme ? "text-white" : "")
               }
             >
-              Filmmaker, Designer,  <span className="text-primary">Fullstack Software Engineer</span>.
+              Filmmaker, Friend,  <span className="text-primary">Fullstack Software Engineer</span>.
             </h2>
             <p className={darkTheme ? "text-white-50" : ""}>
             A spirited, distinguished artist and designer, Francesco once blazed a trail
@@ -42,8 +42,8 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
               As a software engineer, Francesco offers poise, comprehension, and unparalleled organization. 
             </p>
             <p className={darkTheme ? "text-white-50" : ""}>
-              Welcome to my portfolio, make yourself at home as you browse through my past work.
-              If you are interested in working with me in the future, feel free to reach out via email. 
+              Welcome to my portfolio, make yourself at home as you browse through my past works.
+              If you are interested in teaming up with me in the future, reach out via email. 
             </p>
           </div>
           {/* About me content end */}
@@ -131,7 +131,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                   <span>28</span>+
                 </h4>
                 <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
-                  Projects Completed
+                  Works Completed
                 </p>
               </div>
             </div>

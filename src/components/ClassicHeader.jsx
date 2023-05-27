@@ -238,6 +238,28 @@ const ClassicHeader = ({ handleNavClick, activeFilter, setActiveFilter }) => {
           </div>
           <div className="col-auto col-lg-2 d-flex justify-content-end">
             <ul className="social-icons social-icons-light">
+            <li className="social-icons-facebook">
+              <Tooltip text="YouTube" placement="top">
+                <a
+                  href="https://www.youtube.com/@frussohd"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fab fa-youtube" />
+                </a>
+              </Tooltip>
+            </li>
+            <li className="social-icons-youtube">
+              <Tooltip text="Insta" placement="top">
+                <a
+                  href="http://www.instagram.com/frussohd"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fab fa-instagram" />
+                </a>
+              </Tooltip>
+            </li>
             <li className="social-icons-github">
                 <Tooltip text="Github" placement="top">
                   <a

@@ -153,7 +153,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
               <li className="social-icons-facebook">
                 <Tooltip text="YouTube" placement="top">
                   <a
-                    href="https://www.youtube.com/@frussohd"
+                    href="https://www.youtube.com/channel/UCKxRkhdXPUZJhXnG76Y76Yw"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

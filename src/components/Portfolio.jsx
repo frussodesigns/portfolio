@@ -24,7 +24,7 @@ const Portfolio = ({ classicHeader, darkTheme, activeFilter, setActiveFilter }) 
       client: "Childrens Aid NYC",
       technologies: "Mongo DB, Express, React Native, Node JS, Firebase Auth",
       industry: "Social Services",
-      date: "In Progress",
+      date: "May 28, 2023",
       url: {
         name: "www.childrensaidnyc.org",
         link: "https://www.childrensaidnyc.org/",
@@ -36,7 +36,7 @@ const Portfolio = ({ classicHeader, darkTheme, activeFilter, setActiveFilter }) 
         instagram: "http://www.instagram.com/",
         mail: "mailto:example@gmail.com",
       },
-      thumbImage: "images/projects/software-dev/chrome_PCwIkesORU.png",
+      thumbImage: "images/projects/software-dev/ca-1.png",
       sliderImages: [
         "images/projects/software-dev/chrome_CaifCV60Xr.png",
         "images/projects/software-dev/chrome_UGyECtJH1g.jpg",
@@ -51,7 +51,7 @@ const Portfolio = ({ classicHeader, darkTheme, activeFilter, setActiveFilter }) 
       client: "Independent",
       technologies: "Mongo DB, Express, React, Node JS",
       industry: "Book",
-      date: "February 28, 2023",
+      date: "February 21, 2023",
       url: {
         name: "www.hardcover.world",
         link: "https://www.hardcover.world",
@@ -63,7 +63,7 @@ const Portfolio = ({ classicHeader, darkTheme, activeFilter, setActiveFilter }) 
         instagram: "http://www.instagram.com/",
         mail: "mailto:example@gmail.com",
       },
-      thumbImage: "images/projects/software-dev/IMG-1920.PNG",
+      thumbImage: "images/projects/software-dev/hc-2.PNG",
       sliderImages: [
         "images/projects/software-dev/chrome_JJ4iGtEL2I.png",
         "images/projects/software-dev/chrome_DCIdEJdU8U.png",
@@ -80,7 +80,7 @@ const Portfolio = ({ classicHeader, darkTheme, activeFilter, setActiveFilter }) 
       client: "Muzzarella Inc.",
       technologies: "Wordpress",
       industry: "Hospitality",
-      date: "February 28, 2023",
+      date: "June 20, 2020",
       url: {
         name: "www.muzzarella.pizza",
         link: "https://www.muzzarella.pizza",
@@ -92,10 +92,10 @@ const Portfolio = ({ classicHeader, darkTheme, activeFilter, setActiveFilter }) 
         instagram: "http://www.instagram.com/",
         mail: "mailto:example@gmail.com",
       },
-      thumbImage: "images/projects/software-dev/IMG-2.jpg",
+      thumbImage: "images/projects/software-dev/mp-main-green.png",
       sliderImages: [
-        "images/projects/software-dev/chrome_DCIdEJdU8U.png",
-        "images/projects/software-dev/chrome_oNIQkrROPZ.png",
+        "images/projects/software-dev/mp-2.png",
+        "images/projects/software-dev/mp-3.png",
       ],
       categories: ["SoftwareEngineering"],
     },

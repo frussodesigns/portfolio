@@ -633,34 +633,6 @@ const Portfolio = ({ classicHeader, darkTheme, activeFilter, setActiveFilter }) 
       categories: ["MusicVideos"],
     },
     {
-      title: "Every Time",
-      artist: "Ceedub",
-      link: "https://youtu.be/hy55QYzTYGI",
-      projectInfo:
-        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      client: "Ruby Clinton",
-      technologies: "iOS, HTML5, CSS3, PHP, Java",
-      industry: "Art & Design",
-      date: "July 16, 2019",
-      url: {
-        name: "www.example.com",
-        link: "https://www.example.com",
-      },
-      socialLinks: {
-        facebook: "http://www.facebook.com/",
-        twitter: "http://www.twitter.com/",
-        google: "http://www.google.com/",
-        instagram: "http://www.instagram.com/",
-        mail: "mailto:example@gmail.com",
-      },
-      thumbImage: "images/projects/music-videos/everytime.png",
-      sliderImages: [
-        "images/projects/project-1.jpg",
-        "images/projects/project-5.jpg",
-      ],
-      categories: ["MusicVideos"],
-    },
-    {
       title: "Nothing Left",
       artist: "Raeusi",
       link: "https://www.youtube.com/watch?v=UcJU6vMd3OQ",
@@ -688,6 +660,35 @@ const Portfolio = ({ classicHeader, darkTheme, activeFilter, setActiveFilter }) 
       ],
       categories: ["MusicVideos"],
     },
+    {
+      title: "Every Time",
+      artist: "Ceedub",
+      link: "https://youtu.be/hy55QYzTYGI",
+      projectInfo:
+        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      client: "Ruby Clinton",
+      technologies: "iOS, HTML5, CSS3, PHP, Java",
+      industry: "Art & Design",
+      date: "July 16, 2019",
+      url: {
+        name: "www.example.com",
+        link: "https://www.example.com",
+      },
+      socialLinks: {
+        facebook: "http://www.facebook.com/",
+        twitter: "http://www.twitter.com/",
+        google: "http://www.google.com/",
+        instagram: "http://www.instagram.com/",
+        mail: "mailto:example@gmail.com",
+      },
+      thumbImage: "images/projects/music-videos/everytime.png",
+      sliderImages: [
+        "images/projects/project-1.jpg",
+        "images/projects/project-5.jpg",
+      ],
+      categories: ["MusicVideos"],
+    },
+    
   ];
 
   // initialize an Isotope object with configs

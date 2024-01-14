@@ -73,34 +73,34 @@ const Portfolio = ({ classicHeader, darkTheme, activeFilter, setActiveFilter }) 
       ],
       categories: ["SoftwareEngineering"],
     },
-    {
-      title: "Muzzarella Pizza App",
-      artist: "Muzzarella Inc.",
-      video: "V1cIrbEqXC8",
-      projectInfo:
-        "An online ordering solution designed for a local restaurant to combat the obstacle of the COVID-19 pandemic.",
-      client: "Muzzarella Inc.",
-      technologies: "Wordpress",
-      industry: "Hospitality",
-      date: "June 20, 2020",
-      url: {
-        name: "www.muzzarella.pizza",
-        link: "https://www.muzzarella.pizza",
-      },
-      socialLinks: {
-        facebook: "http://www.facebook.com/",
-        twitter: "http://www.twitter.com/",
-        google: "http://www.google.com/",
-        instagram: "http://www.instagram.com/",
-        mail: "mailto:example@gmail.com",
-      },
-      thumbImage: "images/projects/software-dev/mp-main-green.png",
-      sliderImages: [
-        "images/projects/software-dev/mp-2.png",
-        "images/projects/software-dev/mp-3.png",
-      ],
-      categories: ["SoftwareEngineering"],
-    },
+    // {
+    //   title: "Muzzarella Pizza App",
+    //   artist: "Muzzarella Inc.",
+    //   video: "V1cIrbEqXC8",
+    //   projectInfo:
+    //     "An online ordering solution designed for a local restaurant to combat the obstacle of the COVID-19 pandemic.",
+    //   client: "Muzzarella Inc.",
+    //   technologies: "Wordpress",
+    //   industry: "Hospitality",
+    //   date: "June 20, 2020",
+    //   url: {
+    //     name: "www.muzzarella.pizza",
+    //     link: "https://www.muzzarella.pizza",
+    //   },
+    //   socialLinks: {
+    //     facebook: "http://www.facebook.com/",
+    //     twitter: "http://www.twitter.com/",
+    //     google: "http://www.google.com/",
+    //     instagram: "http://www.instagram.com/",
+    //     mail: "mailto:example@gmail.com",
+    //   },
+    //   thumbImage: "images/projects/software-dev/mp-main-green.png",
+    //   sliderImages: [
+    //     "images/projects/software-dev/mp-2.png",
+    //     "images/projects/software-dev/mp-3.png",
+    //   ],
+    //   categories: ["SoftwareEngineering"],
+    // },
     {
       title: "YSL",
       artist: "$olo",

@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import Isotope from "isotope-layout";
 import ProjectDetailsModal from "./ProjectDetailsModal";
+
 const Portfolio = ({ classicHeader, darkTheme, activeFilter, setActiveFilter }) => {
   // init one ref to store the future isotope object
   const isotope = useRef();
@@ -9,6 +10,7 @@ const Portfolio = ({ classicHeader, darkTheme, activeFilter, setActiveFilter }) 
   const [imagesLoaded, setimagesLoaded] = useState(0);
   const [selectedProjectDetails, setSelectedProjectDetails] = useState();
 
+  
   const filters = {
     MusicVideos: "Music Video",
     SoftwareEngineering: "Software Engineering",
@@ -605,9 +607,9 @@ const Portfolio = ({ classicHeader, darkTheme, activeFilter, setActiveFilter }) 
       categories: ["MusicVideos"],
     },
     {
-      title: "Dawn Don",
-      artist: "Ruhboi, Belis",
-      link: "https://www.youtube.com/watch?v=X7IqdSg1c_A",
+      title: "DBA",
+      artist: "Coldy, Rawska",
+      link: "https://youtu.be/tnpPztqn56A",
       projectInfo:
         "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
       client: "Ruby Clinton",
@@ -632,6 +634,34 @@ const Portfolio = ({ classicHeader, darkTheme, activeFilter, setActiveFilter }) 
       ],
       categories: ["MusicVideos"],
     },
+    // {
+    //   title: "Dawn Don",
+    //   artist: "Ruhboi",
+    //   link: "https://www.youtube.com/watch?v=X7IqdSg1c_A",
+    //   projectInfo:
+    //     "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+    //   client: "Ruby Clinton",
+    //   technologies: "iOS, HTML5, CSS3, PHP, Java",
+    //   industry: "Art & Design",
+    //   date: "July 16, 2019",
+    //   url: {
+    //     name: "www.example.com",
+    //     link: "https://www.example.com",
+    //   },
+    //   socialLinks: {
+    //     facebook: "http://www.facebook.com/",
+    //     twitter: "http://www.twitter.com/",
+    //     google: "http://www.google.com/",
+    //     instagram: "http://www.instagram.com/",
+    //     mail: "mailto:example@gmail.com",
+    //   },
+    //   thumbImage: "https://i.ytimg.com/vi/X7IqdSg1c_A/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDXYyxCTba0KqzkrwpGf31xQuaC5g",
+    //   sliderImages: [
+    //     "images/projects/project-1.jpg",
+    //     "images/projects/project-5.jpg",
+    //   ],
+    //   categories: ["MusicVideos"],
+    // },
     {
       title: "Nothing Left",
       artist: "Raeusi",

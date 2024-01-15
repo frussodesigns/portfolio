@@ -304,7 +304,7 @@ const Portfolio = ({ classicHeader, darkTheme, activeFilter, setActiveFilter }) 
       link: "https://www.youtube.com/watch?v=EH5x9ke4IS4",
       projectInfo:
         "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      client: "Ruby Clinton",
+      client: "Bruh",
       technologies: "iOS, HTML5, CSS3, PHP, Java",
       industry: "Art & Design",
       date: "July 16, 2019",
@@ -317,11 +317,10 @@ const Portfolio = ({ classicHeader, darkTheme, activeFilter, setActiveFilter }) 
         twitter: "http://www.twitter.com/",
         google: "http://www.google.com/",
         instagram: "http://www.instagram.com/",
-        mail: "mailto:example@gmail.com",
+        mail: "me@frussohd.com",
       },
       thumbImage: "https://i.ytimg.com/vi/EH5x9ke4IS4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBcuZjp-_PqplVhyf6D4BNC5JqBxw",
       sliderImages: [
-        "images/projects/project-1.jpg",
         "images/projects/project-5.jpg",
       ],
       categories: ["MusicVideos"],

@@ -103,7 +103,7 @@ const Portfolio = ({ classicHeader, darkTheme, activeFilter, setActiveFilter }) 
     // },
     {
       title: "Half",
-      artist: "Owen Chun & Francesco Russo",
+      artist: "Owen Chun,  Francesco Russo",
       link: "https://youtu.be/GUWRv_d8B1k",
       projectInfo:
         "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",

@@ -122,7 +122,7 @@ const Portfolio = ({ classicHeader, darkTheme, activeFilter, setActiveFilter }) 
         instagram: "http://www.instagram.com/",
         mail: "mailto:example@gmail.com",
       },
-      thumbImage: "https://i.ytimg.com/vi/884oAASx2yg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC8YGmoBkF2Rktf0mtTW43InVunRA",
+      thumbImage: "",
       sliderImages: [
         // "images/projects/project-1.jpg",
         "images/projects/project-5.jpg",

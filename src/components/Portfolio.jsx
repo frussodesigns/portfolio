@@ -102,6 +102,35 @@ const Portfolio = ({ classicHeader, darkTheme, activeFilter, setActiveFilter }) 
     //   categories: ["SoftwareEngineering"],
     // },
     {
+      title: "Half",
+      artist: "Owen Chun & Francesco Russo",
+      link: "https://youtu.be/GUWRv_d8B1k",
+      projectInfo:
+        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      client: "Ruby Clinton",
+      technologies: "iOS, HTML5, CSS3, PHP, Java",
+      industry: "Art & Design",
+      date: "July 16, 2019",
+      url: {
+        name: "www.example.com",
+        link: "https://www.example.com",
+      },
+      socialLinks: {
+        facebook: "http://www.facebook.com/",
+        twitter: "http://www.twitter.com/",
+        google: "http://www.google.com/",
+        instagram: "http://www.instagram.com/",
+        mail: "mailto:example@gmail.com",
+      },
+      thumbImage: "https://i.ytimg.com/vi/884oAASx2yg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC8YGmoBkF2Rktf0mtTW43InVunRA",
+      sliderImages: [
+        // "images/projects/project-1.jpg",
+        "images/projects/project-5.jpg",
+      ],
+      categories: ["Film"],
+    },
+
+    {
       title: "YSL",
       artist: "$olo",
       link: "https://www.youtube.com/watch?v=884oAASx2yg",

@@ -42,8 +42,8 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
               As a software engineer, Francesco offers poise, comprehension, and unparalleled organization. 
             </p>
             <p className={darkTheme ? "text-white-50" : ""}>
-              Welcome to my portfolio, make yourself at home as you browse through my past works.
-              If you are interested in teaming up with me in the future, reach out via email. 
+              Welcome to my portfolio. Make yourself at home as you browse through my past works.
+              If you are interested in teaming up in the future, reach out via email. 
             </p>
           </div>
           {/* About me content end */}
@@ -61,7 +61,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                 </li>
                 <li>
                   <span className="fw-600 me-2">Email:</span>
-                  <a href="mailto:me@frussohd.com">me@frussohd.com</a>
+                  <a href="mailto:frussodesigns@gmail.com">frussodesigns@gmail.com</a>
                 </li>
                 <li>
                   <span className="fw-600 me-2">Age:</span>25

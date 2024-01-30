@@ -346,7 +346,7 @@ const Portfolio = ({ classicHeader, darkTheme, activeFilter, setActiveFilter }) 
         twitter: "http://www.twitter.com/",
         google: "http://www.google.com/",
         instagram: "http://www.instagram.com/",
-        mail: "me@frussohd.com",
+        mail: "frussodesigns@gmail.com",
       },
       thumbImage: "https://i.ytimg.com/vi/EH5x9ke4IS4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBcuZjp-_PqplVhyf6D4BNC5JqBxw",
       sliderImages: [

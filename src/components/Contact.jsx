@@ -36,7 +36,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
           setSendingMail(false);
         },
         (error) => {
-          toast.error("Something went wrong!", {
+          toast.error("Form Error: Please instead copy and paste my e-mail address into your preferred e-mailing service.", {
             position: "top-right",
             autoClose: 5000,
             hideProgressBar: false,
@@ -113,7 +113,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
               <span className="text-primary text-4 me-2">
                 <i className="fas fa-envelope" />
               </span>
-              me@frussohd.com
+              frussodesigns@gmail.com
             </p>
             <h2
               className={

@@ -64,7 +64,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                   <a href="mailto:frussodesigns@gmail.com">frussodesigns@gmail.com</a>
                 </li>
                 <li>
-                  <span className="fw-600 me-2">Age:</span>25
+                  <span className="fw-600 me-2">Age:</span>27
                 </li>
                 <li className="border-0">
                   <span className="fw-600 me-2">From:</span>New York,

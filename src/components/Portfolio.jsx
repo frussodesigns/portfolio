@@ -19,6 +19,62 @@ const Portfolio = ({ classicHeader, darkTheme, activeFilter, setActiveFilter }) 
 
   const projectsData = [
     {
+      title: "Vinyl Mirror Affiliate Program",
+      artist: "Vinyl Mirror Ltd.",
+      projectInfo:
+        "An affiliate-link based commission system with fully uperational payouts to affiliates.",
+      client: "Vinyl Mirror Ltd.",
+      technologies: "Mongo DB, Express, React Native, Node JS, Stripe API, Supabase Auth",
+      industry: "Payment Processing",
+      date: "January 31, 2025",
+      url: {
+        name: "www.vinylmirror.com/affiliate",
+        link: "https://www.vinylmirror.com/affiliate",
+      },
+      socialLinks: {
+        facebook: "http://www.facebook.com/",
+        twitter: "http://www.twitter.com/",
+        google: "http://www.google.com/",
+        instagram: "http://www.instagram.com/",
+        mail: "mailto:example@gmail.com",
+      },
+      thumbImage: "images/projects/software-dev/vma-mockup-2.png",
+      sliderImages: [
+        "images/projects/software-dev/vma-1.png",
+        "images/projects/software-dev/vma-2.png",
+        "images/projects/software-dev/vma-3.png",
+      ],
+      categories: ["SoftwareEngineering"],
+    },
+    {
+      title: "Vinyl Mirror Streaming App",
+      artist: "Vinyl Mirror Ltd.",
+      projectInfo:
+        "An iOS, Android Native and Web Application with Chromecast functionality streaming translated music videos from around the world.",
+      client: "Vinyl Mirror Ltd.",
+      technologies: "Mongo DB, Express, React Native, Node JS, Stripe API, AWS S3, Render, Supabase Auth",
+      industry: "Entertainment",
+      date: "December 28, 2024",
+      url: {
+        name: "www.vinylmirror.com",
+        link: "https://www.vinylmirror.com/",
+      },
+      socialLinks: {
+        facebook: "http://www.facebook.com/",
+        twitter: "http://www.twitter.com/",
+        google: "http://www.google.com/",
+        instagram: "http://www.instagram.com/",
+        mail: "mailto:example@gmail.com",
+      },
+      thumbImage: "images/projects/software-dev/VM_Mockup_v01.png",
+      sliderImages: [
+        "images/projects/software-dev/vm-1.png",
+        "images/projects/software-dev/vm-2.png",
+        "images/projects/software-dev/vm-3.png",
+      ],
+      categories: ["SoftwareEngineering"],
+    },
+    {
       title: "Children's Aid App",
       artist: "Children's Aid NYC",
       projectInfo:
@@ -73,34 +129,34 @@ const Portfolio = ({ classicHeader, darkTheme, activeFilter, setActiveFilter }) 
       ],
       categories: ["SoftwareEngineering"],
     },
-    // {
-    //   title: "Muzzarella Pizza App",
-    //   artist: "Muzzarella Inc.",
-    //   video: "V1cIrbEqXC8",
-    //   projectInfo:
-    //     "An online ordering solution designed for a local restaurant to combat the obstacle of the COVID-19 pandemic.",
-    //   client: "Muzzarella Inc.",
-    //   technologies: "Wordpress",
-    //   industry: "Hospitality",
-    //   date: "June 20, 2020",
-    //   url: {
-    //     name: "www.muzzarella.pizza",
-    //     link: "https://www.muzzarella.pizza",
-    //   },
-    //   socialLinks: {
-    //     facebook: "http://www.facebook.com/",
-    //     twitter: "http://www.twitter.com/",
-    //     google: "http://www.google.com/",
-    //     instagram: "http://www.instagram.com/",
-    //     mail: "mailto:example@gmail.com",
-    //   },
-    //   thumbImage: "images/projects/software-dev/mp-main-green.png",
-    //   sliderImages: [
-    //     "images/projects/software-dev/mp-2.png",
-    //     "images/projects/software-dev/mp-3.png",
-    //   ],
-    //   categories: ["SoftwareEngineering"],
-    // },
+    {
+      title: "Muzzarella Pizza App",
+      artist: "Muzzarella Inc.",
+      video: "V1cIrbEqXC8",
+      projectInfo:
+        "An online ordering solution designed for a local restaurant to combat the obstacle of the COVID-19 pandemic.",
+      client: "Muzzarella Inc.",
+      technologies: "Wordpress",
+      industry: "Hospitality",
+      date: "June 20, 2020",
+      url: {
+        name: "www.muzzarella.pizza",
+        link: "https://www.muzzarella.pizza",
+      },
+      socialLinks: {
+        facebook: "http://www.facebook.com/",
+        twitter: "http://www.twitter.com/",
+        google: "http://www.google.com/",
+        instagram: "http://www.instagram.com/",
+        mail: "mailto:example@gmail.com",
+      },
+      thumbImage: "images/projects/software-dev/mp-main.png",
+      sliderImages: [
+        "images/projects/software-dev/mp-2.png",
+        "images/projects/software-dev/mp-3.png",
+      ],
+      categories: ["SoftwareEngineering"],
+    },
     {
       title: "Half",
       artist: "Owen Chun,  Francesco Russo",

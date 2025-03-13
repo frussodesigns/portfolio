@@ -58,7 +58,7 @@ const ClassicHeader = ({ handleNavClick, activeFilter, setActiveFilter }) => {
               }}
             >
               {" "}
-              <img src="images/logo-light-big.png" alt="FRHD.TV" style={{ width: '128px', height: 'auto' }} />{" "}
+              <img src="images/FRHD-157.png" alt="FRHD.TV" style={{ width: '128px', height: 'auto' }} />{" "}
             </Link>
             {/* Logo End */}
           </div>

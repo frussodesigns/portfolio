@@ -14,7 +14,7 @@ const Portfolio = ({ classicHeader, darkTheme, activeFilter, setActiveFilter }) 
   const filters = {
     MusicVideos: "Music Video",
     SoftwareEngineering: "Software Engineering",
-    Film: "Narrative Film",
+    // Film: "Narrative Film",
   };
 
   const projectsData = [

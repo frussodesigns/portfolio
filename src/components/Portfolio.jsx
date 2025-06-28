@@ -19,6 +19,34 @@ const Portfolio = ({ classicHeader, darkTheme, activeFilter, setActiveFilter }) 
 
   const projectsData = [
     {
+      title: "100 Lyrics (Lyric Video Studio)",
+      artist: "Vinyl Mirror Ltd.",
+      projectInfo:
+        "An AI-Background Lyric Video creation app.",
+      client: "Vinyl Mirror Ltd.",
+      technologies: "Firestore DB, Express, React Native, Node JS, Apple Auth, Luma Video API",
+      industry: "Creative Studio",
+      date: "June 27, 2025",
+      url: {
+        name: "www.apps.apple.com/us/app/100-lyrics",
+        link: "https://apps.apple.com/us/app/100-lyrics/id6743194378",
+      },
+      socialLinks: {
+        facebook: "http://www.facebook.com/",
+        twitter: "http://www.twitter.com/",
+        google: "http://www.google.com/",
+        instagram: "http://www.instagram.com/",
+        mail: "mailto:example@gmail.com",
+      },
+      thumbImage: "images/projects/software-dev/100lyrics.png",
+      sliderImages: [
+        // "images/projects/software-dev/100lyrics.png",
+        // "images/projects/software-dev/vma-2.png",
+        // "images/projects/software-dev/vma-3.png",
+      ],
+      categories: ["SoftwareEngineering"],
+    },
+    {
       title: "Vinyl Mirror Affiliate Program",
       artist: "Vinyl Mirror Ltd.",
       projectInfo:

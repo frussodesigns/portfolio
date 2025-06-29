@@ -47,6 +47,34 @@ const Portfolio = ({ classicHeader, darkTheme, activeFilter, setActiveFilter }) 
       categories: ["SoftwareEngineering"],
     },
     {
+      title: "Unfiltered GPT",
+      artist: "Y Ltd.",
+      projectInfo:
+        "A comedy-tuned ai chat assistant with daily photo journaling features.",
+      client: "Y Ltd.",
+      technologies: "Swift, Google Gemini API, Node JS, Firebase Functions, Firebase Auth, Firestore DB",
+      industry: "LLM",
+      date: "May 10, 2025",
+      url: {
+        name: "www.apps.apple.com/us/app/unfiltered-gpt",
+        link: "https://apps.apple.com/us/app/unfiltered-chat-photos/id6742694107",
+      },
+      socialLinks: {
+        facebook: "http://www.facebook.com/",
+        twitter: "http://www.twitter.com/",
+        google: "http://www.google.com/",
+        instagram: "http://www.instagram.com/",
+        mail: "mailto:example@gmail.com",
+      },
+      thumbImage: "images/projects/software-dev/unfiltered.png",
+      sliderImages: [
+        // "images/projects/software-dev/100lyrics.png",
+        // "images/projects/software-dev/vma-2.png",
+        // "images/projects/software-dev/vma-3.png",
+      ],
+      categories: ["SoftwareEngineering"],
+    },
+    {
       title: "Vinyl Mirror Affiliate Program",
       artist: "Vinyl Mirror Ltd.",
       projectInfo:

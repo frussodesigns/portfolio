@@ -168,7 +168,7 @@ const Portfolio = ({ classicHeader, darkTheme, activeFilter, setActiveFilter }) 
       date: "February 21, 2023",
       url: {
         name: "www.hardcover.world",
-        link: "https://www.hardcover.world",
+        link: "https://www.hardcover.dev",
       },
       socialLinks: {
         facebook: "http://www.facebook.com/",
